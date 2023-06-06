@@ -1,0 +1,44 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 90px;
+    grid-template-rows: 100px 80px 100px 100px 100px 100px;
+    gap: 5px;
+    background-color: rgba(10, 27, 218, 0.767);
+    justify-content: center;
+
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+
+
+}
+.contenedor .item{
+
+    font-size: 20px;
+    background-color: rgba(7, 135, 139, 0.788);
+    color: rgba(206, 193, 20, 0.808);
+    text-align: center;
+
+}
+.contenedor .item.uno {
+    grid-column: 1/5;
+    color: rgb(202, 235, 235);
+    background-color: black;
+
+}
+
+.contenedor .item.dos{
+    grid-column: 2/4;
+
+}
+.contenedor .item.tres {
+    background-color: rgb(192, 92, 10)
+}
+.contenedor .item:hover {
+    background-color: rgba(235, 224, 128, 0.979);
+    cursor: pointer;
+}
